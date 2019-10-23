@@ -1443,7 +1443,7 @@ P.c.prototype={
 gH:function(a){return new W.ak(a,"click",!1,[W.o])}}
 F.bA.prototype={
 $1:function(a){H.i(a,"$io")
-document.querySelector("#output").textContent=C.b.K($.ds,$.cF().Y(5))},
+document.querySelector("#output").textContent="~"+C.b.K($.ds,$.cF().Y(7))+"~"},
 $S:11};(function aliases(){var u=J.q.prototype
 u.L=u.h
 u=J.a9.prototype
@@ -1625,7 +1625,7 @@ $.bO=!1
 $.j=C.a
 $.a0=[]
 $.c7=null
-$.ds=["Burgerheart","Falafello","Mosch Mosch","Osteria","Mangold"]})();(function lazyInitializers(){var u=hunkHelpers.lazy
+$.ds=["Burgerheart","Falafello","Mosch Mosch","Osteria","Mangold","Otantik D\xf6ner","Stadtgalerie Thai Restaurant"]})();(function lazyInitializers(){var u=hunkHelpers.lazy
 u($,"dy","cu",function(){return H.cn("_$dart_dartClosure")})
 u($,"dz","bY",function(){return H.cn("_$dart_js")})
 u($,"dA","cv",function(){return H.x(H.aV({

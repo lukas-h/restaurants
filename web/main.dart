@@ -6,13 +6,15 @@ List restaurants = [
   'Falafello',
   'Mosch Mosch',
   'Osteria',
-  'Mangold'
+  'Mangold',
+  'Otantik Döner',
+  'Stadtgalerie Thai Restaurant'
 ];
 var random = Random.secure();
 
 void main() {
   querySelector('#button').onClick.listen((e) {
     querySelector('#output').text =
-        restaurants[random.nextInt(restaurants.length)];
+        '~' + restaurants[random.nextInt(restaurants.length)] + '~';
   });
 }
